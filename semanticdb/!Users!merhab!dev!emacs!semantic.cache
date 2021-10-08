@@ -1,0 +1,108 @@
+;; Object semanticdb-project-database-file-4501d480
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4501d480"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4501f398"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std::cout" using (:type ("std::cout" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [22 38])
+            ("std::endl" using (:type ("std::endl" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [39 55])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [65 74])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [75 88]))                  
+                :type "int")
+                nil [56 165]))          
+      :file "main.cpp"
+      :pointmax 166
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-442733c4"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type ("clanfint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29 38])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [39 52]))                  
+                :type "int")
+                nil [20 226]))          
+      :file "main_c.c"
+      :pointmax 227
+      :fsize 226
+      :lastmodtime '(24928 40706 562004 846000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-467bf7b8"
+      :major-mode c-mode
+      :tags 
+        '( ("cstring_count" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [33 43]))                  
+                :type "int")
+                nil [15 44]))          
+      :file "cstring.h"
+      :pointmax 45
+      :fsize 44
+      :lastmodtime '(24928 40406 934767 458000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (semantic-list 32 . 43) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (semantic-list 32 . 40) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (semantic-list 32 . 38) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 30) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 27) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 26) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 25) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 23) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 21) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 15 . 17) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-417e2364"
+      :major-mode c-mode
+      :tags 
+        '( ("cstring.h" include nil nil [1 21])
+            ("cstring_count" function
+               (:arguments 
+                  ( ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [40 50]))                  
+                :type "int")
+                nil [22 113]))          
+      :file "cstring.c"
+      :pointmax 114
+      :fsize 113
+      :lastmodtime '(24928 40639 517961 341000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-46a312d0"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("cstring.h" include nil nil [20 40])
+            ("main" function (:type "int") nil [41 175]))          
+      :file "main.c"
+      :pointmax 176
+      :fsize 175
+      :lastmodtime '(24928 46901 931975 443000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-460e4718"
+      :major-mode makefile-bsdmake-mode
+      :tags 
+        '( ("main" function (:arguments ("main.o" "cstring.o")) nil [1 54])
+            ("main.o" function (:arguments ("main.c" "cstring.h")) nil [54 94])
+            ("cstring.o" function (:arguments ("cstring.c" "cstring.h")) nil [94 143]))          
+      :file "makefile"
+      :pointmax 143
+      :fsize 142
+      :lastmodtime '(24928 41713 453237 918000)
+      :unmatched-syntax '((shell-command 126 . 142) (bol 125 . 125))))
+  :file "!Users!merhab!dev!emacs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

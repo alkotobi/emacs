@@ -1,0 +1,36 @@
+;; Object semanticdb-project-database-file-41428ac4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-41428ac4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-41e54dd0"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE__TYPES_H_" variable (:constant-flag t) nil [1365 1387])
+            ("i386/_types.h" include nil nil [1435 1459]))          
+      :file "_types.h"
+      :pointmax 1544
+      :fsize 1543
+      :lastmodtime '(24316 50142 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_MACHINE__TYPES_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-41ffc258"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE_TYPES_H_" variable (:constant-flag t) nil [1430 1451])
+            ("i386/types.h" include nil nil [1499 1522]))          
+      :file "types.h"
+      :pointmax 1606
+      :fsize 1605
+      :lastmodtime '(24316 50142 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_MACHINE_TYPES_H_")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!machine!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

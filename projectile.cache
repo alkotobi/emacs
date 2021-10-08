@@ -1,0 +1,1 @@
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("/Users/merhab/dev/emacs/" ("main.o" "main.c~" "GTAGS" "cstring.c~" "makefile" "main.cpp~" "cstring.h" "cstring.o" "a.out" "main.c" "GRTAGS" "main_c.c" "main" "main_c.c~" "cstring.c" "GPATH")))
