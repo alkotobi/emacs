@@ -1,0 +1,18 @@
+cd build/
+cd ../
+cmake --build build
+sudo apt update
+sudo macport install cmake
+sudo port install cmake
+cmake
+cd build
+cls
+clear
+cd ..
+cmake --build build
+cmake --buid build
+cmake --build build
+cd build
+ls
+main
+./main

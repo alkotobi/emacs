@@ -1,34 +1,10 @@
-;; Object semanticdb-project-database-file-4501d480
+;; Object semanticdb-project-database-file-45a09718
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-4501d480"
+(semanticdb-project-database-file "semanticdb-project-database-file-45a09718"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-4501f398"
-      :major-mode c++-mode
-      :tags 
-        '( ("iostream" include (:system-flag t) nil [1 20])
-            ("std::cout" using (:type ("std::cout" type
-                 (:prototype t
-                  :type "class")
-                  nil nil)) nil [22 38])
-            ("std::endl" using (:type ("std::endl" type
-                 (:prototype t
-                  :type "class")
-                  nil nil)) nil [39 55])
-            ("main" function
-               (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [65 74])
-                    ("argv" variable
-                       (:pointer 1
-                        :dereference 1
-                        :type "char")
-                        (reparse-symbol arg-sub-list) [75 88]))                  
-                :type "int")
-                nil [56 165]))          
-      :file "main.cpp"
-      :pointmax 166
-      :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-442733c4"
+
+    (semanticdb-table "semanticdb-table-45a09678"
       :major-mode c-mode
       :tags 
         '( ("stdio.h" include (:system-flag t) nil [1 19])
@@ -47,7 +23,7 @@
       :fsize 226
       :lastmodtime '(24928 40706 562004 846000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-467bf7b8"
+    (semanticdb-table "semanticdb-table-45a09698"
       :major-mode c-mode
       :tags 
         '( ("cstring_count" function
@@ -64,7 +40,7 @@
       :fsize 44
       :lastmodtime '(24928 40406 934767 458000)
       :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (semantic-list 32 . 43) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (semantic-list 32 . 40) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (semantic-list 32 . 38) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 32) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 30) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 27) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 26) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 25) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 23) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 19 . 21) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (INT 15 . 18) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 15 . 17) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
-    (semanticdb-table "semanticdb-table-417e2364"
+    (semanticdb-table "semanticdb-table-45a096b8"
       :major-mode c-mode
       :tags 
         '( ("cstring.h" include nil nil [1 21])
@@ -81,18 +57,18 @@
       :fsize 113
       :lastmodtime '(24928 40639 517961 341000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-46a312d0"
+    (semanticdb-table "semanticdb-table-45a096d8"
       :major-mode c-mode
       :tags 
         '( ("stdio.h" include (:system-flag t) nil [1 19])
             ("cstring.h" include nil nil [20 40])
-            ("main" function (:type "int") nil [41 175]))          
+            ("main" function (:type "int") nil [42 202]))          
       :file "main.c"
-      :pointmax 176
-      :fsize 175
-      :lastmodtime '(24928 46901 931975 443000)
+      :pointmax 203
+      :fsize 201
+      :lastmodtime '(24929 17306 266938 24000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-460e4718"
+    (semanticdb-table "semanticdb-table-45a096f8"
       :major-mode makefile-bsdmake-mode
       :tags 
         '( ("main" function (:arguments ("main.o" "cstring.o")) nil [1 54])
